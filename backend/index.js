@@ -15,7 +15,7 @@ const User = require("./models/User.js");
 // Optional: If you want to use the dotenv package with `require`
 require("dotenv").config();
 
-const port = 10000;
+const port = 3000;
 const app = express();
 
 app.use(bodyParser.json());
