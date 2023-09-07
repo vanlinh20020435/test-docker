@@ -5,4 +5,4 @@ services:
     image: backend
     build: .
     ports:
-      - 10000:3000
+      - 10000:10000
